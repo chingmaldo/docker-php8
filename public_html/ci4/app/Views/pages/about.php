@@ -1,1 +1,1 @@
-My first About page in CI4
+<h1>My first About page in CI4</h1>
