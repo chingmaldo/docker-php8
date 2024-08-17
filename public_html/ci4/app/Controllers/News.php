@@ -57,7 +57,7 @@ class News extends BaseController
         if (! $this->validateData($data, [
             'title' => 'required|max_length[255]|min_length[3]',
             'body'  => 'required|max_length[5000]|min_length[10]',
-            'author' => 'required|max_length[255]|min_length[3]',
+            'author' => 'required|max_length[50]|min_length[3]',
         ])) {
             // The validation fails, so returns the form.
             return $this->new();

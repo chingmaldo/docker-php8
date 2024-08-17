@@ -9,8 +9,10 @@
         <div class="main">
             <?= esc($news_item['body']) ?>
         </div>
+        <p> Author: <?= esc($news_item['author']) ?> </p>
         <p><a href="/news/<?= esc($news_item['slug'], 'url') ?>">View article</a></p>
 
+        
     <?php endforeach ?>
 
 <?php else: ?>
