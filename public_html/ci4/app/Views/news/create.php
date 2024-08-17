@@ -8,15 +8,15 @@
 
     <label for="title">Title</label>
     <input type="input" name="title" value="<?= set_value('title') ?>">
-    <br>
+    <br><br>
 
         <label for="body">Text</label>
     <textarea name="body" cols="45" rows="4"><?= set_value('body') ?></textarea>
-    <br>
+    <br><br>
 
-    <label for="title">Author</label>
-    <input type="input" name="title" value="<?= set_value('author') ?>">
-    <br>
+    <label for="author">Author</label>
+    <input type="input" name="author" value="<?= set_value('author') ?>">
+    <br><br>
 
     <input type="submit" name="submit" value="Create news item">
 </form>
